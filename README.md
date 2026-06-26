@@ -3,7 +3,7 @@ A collaborative university project in statistical learning investigating the rel
 
 ## Overview
 
-This project examines whether increasing urbanization is associated with changes in CO₂ emissions across countries. Multiple econometric models were implemented and compared, including linear and quadratic Pooled OLS regression, and Fixed Effects models, with robustness checks to validate the findings.
+This project examines whether increasing urbanization is associated with changes in CO₂ emissions across countries. The dataset described the CO₂ emissions per capita, population, energy consumption, GDP, and their related indexes and growth/lagged variables for 36 countries across a 28-year period (1975-2002). Multiple econometric models were implemented and compared, including linear and quadratic Pooled OLS regression, and Fixed Effects models, with robustness checks to validate the findings.
 
 ## Methodology
 
@@ -16,17 +16,6 @@ This project examines whether increasing urbanization is associated with changes
 * Heterogeneity analysis by GDP and population
 * Model diagnostics including multicollinearity, heteroskedasticity, and residual analysis
 
-## Technologies
-
-* Python
-* Jupyter Notebook
-* pandas
-* NumPy
-* statsmodels
-* linearmodels
-* matplotlib
-* scikit-learn
-
 ## Key Findings
 
 * Pooled OLS models suggest the presence of a statistically significant relationship between 
@@ -36,6 +25,9 @@ the quadratic specification.
 * Energy consumption consistently remained a positive and highly statistically significant predictor of CO₂ emissions across all model specifications.
 * Robustness checks supported the conclusion that the apparent relationship in pooled models was primarily driven by differences between countries rather than changes within countries over time.
 
+## Technologies
+
+* Python (Jupyter Notebook), pandas, NumPy, statsmodels, linearmodels, matplotlib, scikit-learn
 
 ## Repository Contents
 
